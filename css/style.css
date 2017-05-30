@@ -1,0 +1,38 @@
+#calculator {
+  /*position: fixed;
+  float: right;*/
+  /*margin: -25% 60%;*/
+  /*background: rgb(66, 170, 75);*/
+  opacity: .95;
+  z-index: 1000;
+  width: 30%;
+  padding: 1% 0 5% 0;
+  border-radius: 5px;
+  max-height: 100%;
+  bottom: 20em;
+  // overflow: auto;
+}
+
+#calculator h4 {
+  font-size: 1.5em;
+  margin-top: -5px;
+  color: black !important;
+
+}
+
+#calculator p {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: -12px;
+}
+
+
+#calculator input {
+  width: 50%;
+  opacity: 1;
+  height: 30px;
+  margin: -5px 0 -12px 20%;
+  padding: 1% 5%;
+  border-radius: 4px;
+  font-size: 14px;
+}
