@@ -1,7 +1,12 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: helvetica;
+}
 #calculator {
   /*position: fixed;
   float: right;*/
-  /*margin: -25% 60%;*/
+  margin: 0 auto;
   /*background: rgb(66, 170, 75);*/
   opacity: .95;
   z-index: 1000;
@@ -17,7 +22,7 @@
   font-size: 1.5em;
   margin-top: -5px;
   color: black !important;
-
+  
 }
 
 #calculator p {
@@ -29,10 +34,13 @@
 
 #calculator input {
   width: 50%;
-  opacity: 1;
+  opacity: .9;
   height: 30px;
   margin: -5px 0 -12px 20%;
   padding: 1% 5%;
-  border-radius: 4px;
+  /*border-radius: 4px;*/
   font-size: 14px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
 }
