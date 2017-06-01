@@ -23,7 +23,7 @@
 
    // reset inputs
    function resetCalculator() {
-    document.getElementById("calculator").reset();
+    document.getElementById("calculatorInputs").reset();
 }
 
    //end of calculator
