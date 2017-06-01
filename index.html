@@ -3,6 +3,8 @@
   <head>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savings Calculator</title>
   </head>
   <body>
    <!-- Calculator -->
@@ -15,16 +17,13 @@
 
       <br><p>Discretionary Spending:</p> <input type="text" id="inputC" value="0" onfocus="this.value = this.value=='0'?'':this.value;" onblur="this.value = this.value==''?'0':this.value;" ><br><br>
 
-      <br><p>Available Monthly Savings:</p><input type="text" id="inputE" value="0" readonly="true"><br><br>
+      <br><p>Monthly Savings:</p><input type="text" id="inputE" value="0" readonly="true"><br><br>
      <!--  <br><p>Annual Short Term Savings:</p> <input type="text" id="inputF" value="0" readonly="true"><br><br>
       <br><p>Annual Long Term Savings:</p> <input type="text" id="inputG" value="0" readonly="true"> -->
-     <br><br>
-   
-
+     <br>
      </form>
- <button onclick="updateResult()">Calculate</button>
-    <button type="button" onclick="resetCalculator()" >Reset</button>
+    <input class="button" type="button"  onclick="updateResult()" value="Calculate"><br><br>
+    <input class="button" type="button" onclick="resetCalculator()" value="Reset" >
   </div>
-</div>
   </body>
 </html>
