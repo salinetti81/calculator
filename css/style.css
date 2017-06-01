@@ -10,7 +10,7 @@ body {
   /*background: rgb(66, 170, 75);*/
   opacity: .95;
   z-index: 1000;
-  width: 30%;
+  width: 20em;
   padding: 1% 0 5% 0;
   border-radius: 5px;
   max-height: 100%;
@@ -38,13 +38,22 @@ body {
   padding: 1% 5%;
   /*border-radius: 4px;*/
   font-size: 14px;
-  background-color: black;
+  background-color: #404040;
   color: white;
-  border: 1px solid white;
+  border: none;
+  outline: none;
 }
 
 button {
-  margin: 0 auto;
+  margin: 35px 0 -12px 25%;
+  height: 30px;
+  width: 50%;
+  /*border: none;*/
+  /*outline: none;*/
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 

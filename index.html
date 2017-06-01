@@ -8,13 +8,19 @@
    <!-- Calculator -->
   <div id="calculator">
   <!-- <h4>Savings Calculator</h4> -->
-    <br> <p>Monthly Income:</p><input type="text" id="inputA" ><br><br>
-    <br><p>Monthly Expenses:</p> <input type="text" id="inputB"> <br><br>
-    <br><p>Discretionary Spending:</p> <input type="text" id="inputC" ><br><br>
+    <br> <p>Monthly Income:</p><input type="text" id="inputA" value="0" onfocus="this.value = this.value=='0'?'':this.value;" onblur="this.value = this.value==''?'0':this.value;" ><br><br>
+
+    <br><p>Monthly Expenses:</p> <input type="text" id="inputB" value="0" onfocus="this.value = this.value=='0'?'':this.value;" onblur="this.value = this.value==''?'0':this.value;"> <br><br>
+
+    <br><p>Discretionary Spending:</p> <input type="text" id="inputC" value="0" onfocus="this.value = this.value=='0'?'':this.value;" onblur="this.value = this.value==''?'0':this.value;" ><br><br>
+
     <br><p>Available Monthly Savings:</p><input type="text" id="inputE" value="0" readonly="true"><br><br>
-    <!-- <br><p>Annual Short Term Savings:</p> <input type="text" id="inputF" value="0" readonly="true"><br><br>
+   <!--  <br><p>Annual Short Term Savings:</p> <input type="text" id="inputF" value="0" readonly="true"><br><br>
     <br><p>Annual Long Term Savings:</p> <input type="text" id="inputG" value="0" readonly="true"> -->
-    <button onclick="updateResult()">Calculate</button>
+    <button onclick="updateResult()">Calculate</button><br><br>
+    <button type="button" onclick="resetCalculator()" >Reset</button>
+
+   
 
   </div>
 </div>

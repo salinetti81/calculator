@@ -16,9 +16,14 @@
       e("inputE").value = f("inputA") - (f("inputB")) - f("inputC") ;
          e = e || 0
       // short term savings
-      e("inputF").value = f("inputE") * .20 ;
-      // long term savings
-      e("inputG").value = f("inputE") * .80 ;
+      // e("inputF").value = f("inputE") * .20 ;
+      // // long term savings
+      // e("inputG").value = f("inputE") * .80 ;
    } 
+
+   // reset inputs
+   function resetCalculator() {
+    document.getElementById("calculator").reset();
+}
 
    //end of calculator
